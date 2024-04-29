@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabby's Weather Update</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="images" href="img">
+</head>
+<body>
+    <main>
+        <div id="inCleveland" class="height80">
+            <h1 id="heading"></h1>
+            <div id="image"></div>
+            <p id="message"></p>
+        </div>
+        <p id="notInCleveland">Not in Cleveland?</p>
+        <div id="otherLocation" class="hidden">
+            <p>Where are you, Gabby?</p>
+            <input type="text" id="city" placeholder="City"></input>
+            <span id="submit">submit</span>
+            <p id="error"></p>
+        </div>
+    </main>
+<script src="main.js"></script>
+</body>
+</html>

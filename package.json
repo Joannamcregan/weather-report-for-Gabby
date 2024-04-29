@@ -1,0 +1,15 @@
+{
+  "name": "gabby",
+  "version": "1.0.0",
+  "description": "A way to tell Gabby the current weather in Cleveland.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "joanna",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "type": "module"
+  }
+}
